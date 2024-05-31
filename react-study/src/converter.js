@@ -1,3 +1,4 @@
+// 시간 변환
 import React from 'react';
 
 function Converter() {
