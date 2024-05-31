@@ -1,6 +1,6 @@
 import React from 'react';
 
-function App() {
+function Converter() {
   // (1) 첫번째 요소는 데이터 두번째 요소는 데이터를 수정하기 위한 함수
   const [minutes, setMinutes] = React.useState(0);
   // (3) onChange 함수 생성 => 데이터 업데이트!
@@ -34,4 +34,4 @@ function App() {
   );
 }
 
-export default App;
+export default Converter;
